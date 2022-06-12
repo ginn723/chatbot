@@ -1,0 +1,337 @@
+body{
+  font-family: Noto Sans TC, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.container{
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 16px 142px;
+}
+
+.fee-btn{
+  background: #FF5D50;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.fee-btn:hover{
+  background: #56C4C5;
+}
+
+.right-side>.bg-md {
+  background-image: url('./chatTalker_images/bg_home.svg');
+  position: absolute;
+  width: 851px;
+  height: 768px;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.bg-item-md {
+  width: 532px;
+  height: 534px;
+  position: absolute;
+  top: 118px;
+  right: 142px;
+}
+
+.left-side{
+  padding-top: 222.67px ;
+}
+
+.top-btn{
+  height: 71px;
+  width: 71px;
+  border-radius: 50%;
+  position: absolute;
+  right: 142px;
+  top: 674px;
+}
+
+.ball-1{
+  background-image: url('./chatTalker_images/ball01.svg');
+  width: 360px;
+  height: 360px;
+  right: calc(100vw - 180px);
+  top: calc(100vh - 180px);
+  z-index: -2;
+}
+
+.three-platforms{
+  padding-top: 374px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-title{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description{
+  font-size: 16px;
+}
+
+.four-cards{
+  padding-top: 100px;
+  
+}
+
+.card{
+  width: 260px;
+  height: 388px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bg-ball2{
+  background-image: url('./chatTalker_images/ball02.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: -2;
+  width: 310px;
+  height: 310px;
+  top: 1500px;
+  left: calc(100vw - 210px);
+}
+
+.sec3 {
+  padding-top: 100px;
+
+}
+
+.img-sec3{
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  width: 86px;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card-sec3{
+  width: 230px;
+  height: 284px;
+  padding: 48px 32px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.user-img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  top: -5rem;
+  left: .5rem;
+  
+}
+
+.card-user{
+  width: 352px;
+  height: 248px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer{
+  background-image: url('./chatTalker_images/home_footer.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 503px;
+}
+
+.footer-title{
+  padding-top: 260px;
+}
+
+@media(max-width: 768px){
+  .container {
+      max-width: 100%;
+      padding: 8px 20px;
+    }
+  .wrap{
+    background-color: #fff;
+    width: 100%;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }  
+  .nav{
+    padding-top: .5rem;
+  }
+
+  .line{
+    padding-bottom: 5px;
+    color: #F5CA52;
+  }
+
+  .left-side{
+    padding: 0 20px;
+  }
+
+  .right-side{
+    display: flex;
+    justify-content: center;
+  }
+  .right-side>.bg {
+    width: 334px;
+    height: 245px;
+    background-image: url('./chatTalker_images/bg_home_sm.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;    
+  }
+
+    .bg-item {
+      width: 304px;
+      height: 305px;
+      position: absolute;
+      top: 258px;
+    }
+
+    .ball-1{
+      background-image: url('./chatTalker_images/ball01.svg');
+      background-repeat: no-repeat;
+      background-position: 100px 100px;
+      background-size: 126px 126px;
+      right: calc(100vw - 50%);
+      top: 600px;
+      z-index: -2;
+    }
+
+      .top-btn {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        right: 45px;
+        top: 510px;
+      }
+
+      .three-platforms {
+        padding-top: 120px;
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      .card-icon{
+        width: 60px;
+        height: 60px;
+      }
+
+      .bg-ball2 {
+        background-image: url('./chatTalker_images/ball02.svg');
+        background-repeat: no-repeat;
+        background-position: 100px 100px;
+        background-size: 135px 135px;
+        right: calc(100vw - 60%);
+        top: 3040px;
+        z-index: -2;
+      }
+
+     
+    /* fees -sm */
+    .bg-item-fees{
+      position: absolute;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: -2;
+    }
+
+   
+
+
+}  
+
+/* utilities */
+.primary-color {
+  color: #56C4C5;
+}
+
+.bg-primary-color {
+  background: #56C4C5;
+}
+
+.rounded-25{
+  border-radius: 25px;
+}
+
+.bg-gray{
+  background: #F5F5F5;
+}
+
+.secondary-color{
+  color: #F5CA52;
+}
+
+.box-shadow{
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* fees */
+.bg-item-fees-md {
+  width: 885px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.left-side-fees {
+  padding-top: 180px;
+}
+
+.top-btn-fees {
+  height: 71px;
+  width: 71px;
+  border-radius: 50%;
+  position: absolute;
+  right: 57px;
+  top: 667px;
+}
+
+.flexible-program {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+.flexible-btn{
+  outline: 2px solid #56C4C5;
+}
+
+.flexible-btn:hover{
+  background: #56C4C5;
+  color: #fff;
+}
+
+.card-packages{
+  width: 444px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #56C4C5;
+  background: #fff;
+ }
+
+ .accordion-button:focus{
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(175, 175, 175, 0.25);
+ }
